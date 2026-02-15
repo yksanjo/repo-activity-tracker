@@ -1,0 +1,12 @@
+{
+  "name": "repo-activity-tracker",
+  "version": "1.0.0",
+  "description": "Track repository activity and recent commits",
+  "main": "src/index.js",
+  "bin": { "gh-activity": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "activity", "tracker"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
